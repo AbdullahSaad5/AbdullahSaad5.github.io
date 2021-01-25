@@ -31,7 +31,7 @@ section {
 .page1 .basicInfo {
     position: absolute;
     height: 100vh;
-    width: 55%;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -39,7 +39,8 @@ section {
 .page1 .basicInfo div {
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
+    margin-left: 10%;
+    width: 50%;
 
     justify-content: center;
 
