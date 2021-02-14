@@ -216,6 +216,14 @@ section {
     font-size: 0.9rem;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: Lora, Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
 
 @media (max-width:768px),
 (orientation:portrait) {
