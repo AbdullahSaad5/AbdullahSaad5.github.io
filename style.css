@@ -97,6 +97,7 @@ section {
 .page2 .aboutMe p {
   font-size: 0.8125em;
   padding-top: 20px;
+  text-align: justify;
 }
 
 .page3 {
@@ -129,6 +130,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   flex: 1;
   flex-wrap: wrap;
   padding: 40px;
@@ -144,9 +146,11 @@ section {
 }
 
 .service img {
-  padding: auto;
+  height: 50px;
 }
-
+#last {
+  height: 70px;
+}
 .service div {
   padding-left: 30px;
   max-width: 350px;
@@ -162,6 +166,7 @@ section {
   color: #3c95a8;
   size: 0.815em;
   margin-top: 8px;
+  text-align: justify;
 }
 
 .page4 {
@@ -217,5 +222,53 @@ a {
   .page2 .page2Bg {
     width: 100%;
     background-size: cover;
+  }
+  .page1 .basicInfo div {
+    width: 100%;
+    margin: 0 15%;
+  }
+  .page1 .basicInfo div h1 {
+    font-size: 2rem;
+  }
+
+  .page1 .basicInfo div p {
+    font-size: 0.7rem;
+  }
+
+  .page2 .aboutMe {
+    width: 100%;
+    margin: 0 15%;
+  }
+
+  .page2 .aboutMe h2 {
+    font-size: 2rem;
+  }
+  .page2 .aboutMe p {
+    font-size: 0.7rem;
+  }
+  .page3 h2 {
+    font-size: 2rem;
+  }
+  .service div > h3 {
+    font-size: 0.9em;
+  }
+  .service div > p {
+    size: 0.65em;
+  }
+  .service img {
+    height: 35px;
+  }
+  #last {
+    height: 50px;
+  }
+  .page4 .contact h2 {
+    font-size: 2rem;
+  }
+  .page4 .contact h3 {
+    font-size: 0.9rem;
+  }
+
+  .page4 .contact p {
+    font-size: 0.7rem;
   }
 }
