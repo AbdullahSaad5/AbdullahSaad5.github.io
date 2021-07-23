@@ -272,3 +272,64 @@ a {
     font-size: 0.7rem;
   }
 }
+
+/* 
+
+
+
+*/
+
+svg {
+  display: inline;
+  margin-left: 0.7rem;
+}
+
+#signature {
+  margin-left: 0;
+  display: block;
+  width: fit-content;
+}
+#first-s,
+#yed,
+#abdullah,
+#second-s,
+#aad {
+  animation: sign 3s ease-in forwards, fill 0s forwards;
+  animation-delay: 0s, 2s;
+}
+#first-s {
+  stroke-dasharray: 1256;
+  stroke-dashoffset: 1256;
+}
+
+#yed {
+  stroke-dasharray: 3371;
+  stroke-dashoffset: 3371;
+}
+
+#abdullah {
+  stroke-dasharray: 12609;
+  stroke-dashoffset: 12609;
+}
+
+#second-s {
+  stroke-dasharray: 590;
+  stroke-dashoffset: 590;
+}
+
+#aad {
+  stroke-dasharray: 1268;
+  stroke-dashoffset: 1268;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  to {
+    fill: white;
+  }
+}
