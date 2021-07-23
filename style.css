@@ -291,10 +291,13 @@ svg {
 }
 #first-s,
 #yed,
-#abdullah,
+#abdullah {
+  animation: sign 3s ease-in forwards, fill 0s forwards;
+  animation-delay: 0s, 2s;
+}
 #second-s,
 #aad {
-  animation: sign 3s ease-in forwards, fill 0s forwards;
+  animation: sign 2s ease-in forwards, fill 0s forwards;
   animation-delay: 0s, 2s;
 }
 #first-s {
