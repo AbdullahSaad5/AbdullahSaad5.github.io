@@ -71,7 +71,7 @@ section {
   position: absolute;
   height: 100vh;
   width: 75%;
-  background: url(./Images/page2bg.png);
+  background: url(./Images/page2bg.jpg);
   background-size: cover;
   right: 0;
   flex: auto;
@@ -177,7 +177,7 @@ section {
 
 .page4 .page4Bg {
   position: absolute;
-  background: url(./Images/page4bg.png);
+  background: url(./Images/page4bg.jpg);
   background-size: cover;
   height: 100vh;
   width: 75%;
