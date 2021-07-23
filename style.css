@@ -219,7 +219,8 @@ a {
 }
 
 @media (max-width: 768px), (orientation: portrait) {
-  .page2 .page2Bg {
+  .page2 .page2Bg,
+  .page4 .page4Bg {
     width: 100%;
     background-size: cover;
   }
