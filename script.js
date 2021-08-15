@@ -3,6 +3,7 @@ const nav = document.getElementById("nav");
 const toggleIcon = document.getElementById("toggle-icon");
 const textBox = document.getElementById("text-box");
 const burgerMenu = document.getElementById("container");
+const mobileNav = document.getElementById("mobile-nav");
 
 function switchTheme(event) {
   if (event.target.checked) {
@@ -47,9 +48,20 @@ if (selectedTheme) {
 function animateBurger() {
   if (burgerMenu.classList.contains("change")) {
     burgerMenu.classList.remove("change");
+    mobileNav.classList.remove("active");
+    mobileNav.classList.add("inactive");
+    mobileNav.hidden = true;
   } else {
     burgerMenu.classList.add("change");
+    mobileNav.classList.add("active");
+    mobileNav.classList.remove("inactive");
+    mobileNav.hidden = false;
   }
 }
 
 burgerMenu.addEventListener("click", animateBurger);
+
+const elements = mobileNav.getElementsByTagName("a");
+for (let index = 0; index < elements.length; index++) {
+  elements[index].addEventListener("click", animateBurger);
+}
